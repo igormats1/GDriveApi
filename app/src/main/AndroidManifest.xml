@@ -16,6 +16,86 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".CreateEmptyFileActivity"
+            android:label="CreateEmptyFileActivity">
+        </activity>
+        <activity android:name=".CreateFileActivity"
+            android:label="CreateFileActivity">
+        </activity>
+        <activity android:name=".CreateFolderActivity"
+            android:label="CreateFolderActivity">
+        </activity>
+        <activity android:name=".CreateFileInFolderActivity"
+            android:label="CreateFileInFolderActivity">
+        </activity>
+        <activity android:name=".CreateFolderInFolderActivity"
+            android:label="CreateFolderInFolderActivity">
+        </activity>
+        <activity android:name=".CreateFileInAppFolderActivity"
+            android:label="CreateFileInAppFolderActivity">
+        </activity>
+        <activity android:name=".CreateFileWithCreatorActivity"
+            android:label="CreateFileWithCreatorActivity">
+        </activity>
+        <activity android:name=".RetrieveMetadataActivity"
+            android:label="RetrieveMetadataActivity">
+        </activity>
+        <activity android:name=".RetrieveContentsActivity"
+            android:label="RetrieveContentsActivity">
+        </activity>
+        <activity android:name=".RetrieveContentsWithProgressDialogActivity"
+            android:label="RetrieveContentsWithProgressDialogActivity">
+        </activity>
+        <activity android:name=".EditMetadataActivity"
+            android:label="EditMetadataActivity">
+        </activity>
+        <activity android:name=".AppendContentsActivity"
+            android:label="AppendContentsActivity">
+        </activity>
+        <activity android:name=".RewriteContentsActivity"
+            android:label="RewriteContentsActivity">
+        </activity>
+        <activity android:name=".PinFileActivity"
+            android:label="PinFileActivity">
+        </activity>
+        <activity android:name=".InsertUpdateCustomPropertyActivity"
+            android:label="InsertUpdateCustomPropertyActivity">
+        </activity>
+
+        <activity android:name=".DeleteCustomPropertyActivity"
+            android:label="DeleteCustomPropertyActivity">
+        </activity>
+        <activity android:name=".QueryFilesActivity"
+            android:label="QueryFilesActivity">
+        </activity>
+        <activity android:name=".QueryFilesInFolderActivity"
+            android:label="QueryFilesInFolderActivity">
+        </activity>
+        <activity android:name=".QueryNonTextFilesActivity"
+            android:label="QueryNonTextFilesActivity">
+        </activity>
+        <activity android:name=".QuerySortedFilesActivity"
+            android:label="QuerySortedFilesActivity">
+        </activity>
+        <activity android:name=".QueryFilesSharedWithMeActivity"
+            android:label="QueryFilesSharedWithMeActivity">
+        </activity>
+        <activity android:name=".QueryFilesWithTitleActivity"
+            android:label="QueryFilesWithTitleActivity">
+        </activity>
+        <activity android:name=".QueryFilesWithCustomPropertyActivity"
+            android:label="QueryFilesWithCustomPropertyActivity">
+        </activity>
+        <activity android:name=".QueryStarredTextFilesActivity"
+            android:label="QueryStarredTextFilesActivity">
+        </activity>
+        <activity android:name=".QueryTextOrHtmlFilesActivity"
+            android:label="QueryTextOrHtmlFilesActivity">
+        </activity>
+
+
+
     </application>
 
 </manifest>
